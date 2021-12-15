@@ -1,0 +1,109 @@
+.App {
+    background-color: rgb(41, 40, 40);
+    min-height: 100vh;
+  }
+  .img-logo {
+    width: 30%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .List {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .currency {
+    color: white;
+    flex-direction: column;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border: gray 2px solid;
+  }
+  
+  .first-row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    justify-content: space-between;
+  }
+  
+  .CryptoPosts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .goToPostBtn {
+    width: 100%;
+  }
+  
+  .desc-post {
+    /**Major Properties**/
+    overflow: hidden;
+    line-height: 1.5rem;
+    max-height: 8rem;
+    -webkit-box-orient: vertical;
+    display: block;
+    display: -webkit-box;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
+  }
+  .CryptoAd {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Memes-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card {
+    background-color: black;
+    align-items: center;
+    margin-bottom: 0.7rem;
+  }
+  
+  .table {
+    margin-bottom: 0rem;
+  }
+  
+  .table-bordered > :not(caption) > * > * {
+    border-width: 0 0.01px;
+  }
+  
+  .table-sm > :not(caption) > * > * {
+    padding: 0.1rem 0.1rem;
+  }
+  
+  .crypto-img {
+    width: 15%;
+    height: auto;
+    margin-left: 1rem;
+  }
+  
+  .dropdown {
+    display: flex;
+    justify-content: center;
+    /* margin-right: 12.5rem; */
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .Loading {
+    color: gray;
+    font-size: 2rem;
+  }
+  

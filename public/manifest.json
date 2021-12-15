@@ -1,0 +1,17 @@
+{
+  "short_name": "CryptoMarket",
+  "name": "Crypto Market",
+  "orientation":"portrait-primary",
+  "lang": "en",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "icons":[
+      {
+          "src":"/images/BestInCrypto-logo.png",
+          "type":"image/png",
+          "sizes":"150x150"        
+      }
+  ]
+}
